@@ -6,6 +6,7 @@ import {
 import { MongoDriver, MongoEntityManager, ObjectId } from '@mikro-orm/mongodb';
 import { BaseEntity } from '../models/base-entity';
 import { DataBaseNamingStrategy } from './db-naming-strategy';
+import { MasterNamingStrategy } from './db-master-strategy';
 
 /**
  * Common connection config
